@@ -31,13 +31,12 @@ body{
 
 .main{
     background-color: white;
-    width: 20vw;
-    height: 60vh;
-    border-radius: 10%;
+    width: 310px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1%;
+    padding: 1rem;
 }
 
 .qr{
@@ -45,8 +44,8 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center center;
-    height: 65%;
-    width: 100%;
+    height: 300px;
+    width: 300px;
     border-radius: 10%;
     
     
@@ -57,13 +56,14 @@ body{
 }
 
 .texto h1{
-    font-size: 18px;
+    font-size: 21px;
     text-align: center;
     color: var(--dark--blue);
 }
 
 .texto p{
     color: var(--grayish--blue);
+    text-align: center;
 }
 
 
